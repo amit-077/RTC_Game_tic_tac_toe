@@ -28,7 +28,7 @@ const expressServer = app.listen(8000, () => {
 
 const io = socketio(expressServer, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://tic-tac-toe-frontend-one.vercel.app",
   },
 });
 
