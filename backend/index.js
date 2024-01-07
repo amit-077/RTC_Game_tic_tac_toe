@@ -12,7 +12,7 @@ let count = 1;
 
 app.use(
   cors({
-    origin: ["https://shop-sleuth-frontend.vercel.app"],
+    origin: ["https://tic-tac-toe-frontend-one.vercel.app"],
     methods: "*",
     credentials: true,
   })
